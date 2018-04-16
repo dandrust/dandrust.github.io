@@ -40,7 +40,7 @@ category: about
 
 ## Education
 
-### Bachelor's of Art: Spanish Language and Literature
+### Bachelor of Art: Spanish Language and Literature
 #### Grand Valley State University (2008-2010)
 
 

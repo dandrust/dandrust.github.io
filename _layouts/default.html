@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -18,18 +19,14 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" id='headshot' alt="Logo" />
         {% endif %}
-
         <p>{{ site.description }}<br />based in {{ site.location }}</p>
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
+        {% include social.html %}
 
         {% for link_text in site.header_links %}
           {% capture link %}{{ link_text | downcase}}{% endcapture %}
         <a href='/{{ link }}' class='header_link'>
-          <h3 class='{% if link == page.category %}nav-selected{% endif %}'>{% if link == page.category %}> {% endif %}{{ link_text }}</h3>
+          <h3>{% if link == page.category %}> {% endif %}{{ link_text }}</h3>
         </a>
         {% endfor %}
       </header>
