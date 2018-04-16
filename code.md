@@ -17,7 +17,7 @@ After reading [Code](https://www.amazon.com/Code-Language-Computer-Hardware-Soft
 
 <br />
 ## Filter Build Scheduler for 20 Liters
-As part of Code For Good : Give Camp 2017 I worked on a Rails app to benefit [20 Liters](https://20liters.org/). You can see my contributions to the project [on GitHub]((https://github.com/chiperific/filterbuildscheduler)
+As part of Code For Good : Give Camp 2017 I worked on a Rails app to benefit [20 Liters](https://20liters.org/). You can see my contributions to the project [on GitHub](https://github.com/chiperific/filterbuildscheduler)
 
 <br />
 ## Free Code Camp Challenges
