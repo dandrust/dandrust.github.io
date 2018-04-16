@@ -1,0 +1,35 @@
+development:
+  - title: Web Developer
+    organization: ProTrainings, LLC
+    date_string: Sep. 2016 - Present
+    description:
+      - Full Stack Ruby on Rails
+      - Implement and maintain features for internal clients
+      - Perform occasional maintenance and upgrades to tech stack
+      - Update legacy code for better performance and maintanability
+      - Wrote and maintain <a href='https://rubygems.org/gems/has-meta'><code>has-meta</code></a> gem
+  - title: Volunteer Rails Developer
+    organization: 'Code For Good: Give Camp'
+    date_string: Nov 3-5, 2017
+    description:
+      - Contributor to <a href='https://github.com/chiperific/filterbuildscheduler'><code>filterbuildscheduler</code></a> for <a href='https://20liters.org/'>20 Liters</a>
+other:
+  - title: Long-Term Travel
+    organization: Latin America
+    date_string: Jan-Aug 2016
+    description:
+      - Lived in Colombia, Guatemala, and Mexico
+      - Advanced Spanish immersion classes in Bogota, Colombia
+      - Completed <a href='https://www.freecodecamp.org'>Free Code Camp</a> front-end training (self-study)
+  - title: Program Director
+    organization: Literacy Center of West Michigan
+    date_string: Jan 2014 - Jan 2016
+    description:
+      - Hiring, training, and supervision of 8-12 ELL Instructors
+      - Strategic program planning, proccess improvement, and management of $300k budget 
+      - Redesigned recruitment and training processes to meet recruitment and retention goals, wrote and delivered 10+ teacher trainings, developed collaborative recruitment strategy
+education:
+  - title: 'Bachelor of Art: Spanish Language and Literature'
+    organization: Grand Valley State University 
+    date_string: 2008-2010
+
