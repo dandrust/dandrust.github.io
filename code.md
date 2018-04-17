@@ -21,10 +21,12 @@ After reading [Code](https://www.amazon.com/Code-Language-Computer-Hardware-Soft
 |6|Write an assembler|[link](https://github.com/dandrust/ecs/tree/master/06)
 |7|Stack arithmetic, write VM translator pt. I|[link](https://github.com/dandrust/ecs/tree/master/07)
 |8|Control Flow, write VM translator pt. II|Pending
+{% comment %}
 |9||
 |10||
 |11||
 |12||
+{% endcomment %}
 
 <br />
 ## Filter Build Scheduler for 20 Liters
