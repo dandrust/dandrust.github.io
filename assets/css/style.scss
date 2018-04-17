@@ -3,10 +3,6 @@
 
 @import "jekyll-theme-minimal";
 
-#headshot {
-  border-radius: 50%;
-}
-
 #social-links {
   a {
     color: black;
@@ -24,5 +20,53 @@
   }
   h3 a {
     margin-bottom: 20px;
+  }
+}
+
+@media print, screen and (max-width: 960px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 961px) {
+  .visible-mobile {
+    display: none;
+  }
+}
+
+header {
+  position: relative;
+}
+
+#mobile-menu-button, #mobile-menu-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+@media print, screen and (min-width: 961px) {
+  #header-link-container {
+    display: block !important;
+  }
+}
+
+@media print, screen and (max-width: 960px) {
+  #header-link-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 58px;
+    background: #e5e5e5;
+    color: white;
+    width: 100%;
+    box-shadow: 0px 0px 30px #777;
+  } 
+}
+
+@media print, screen and (max-width: 480px) {
+  #header-link-container {
+    padding: 25px;
   }
 }
