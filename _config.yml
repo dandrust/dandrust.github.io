@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Dan Drust
+logo: https://render.bitstrips.com/v2/cpanel/74199580-3d4e-4477-8454-45c0e64aaa76-7bae3348-5189-4dda-8128-de7baa798685-v1.png?transparent=1&palette=1&width=175
 email: dandrust@gmail.com
 description: Ruby on Rails Developer
 location: Grand Rapids, MI
