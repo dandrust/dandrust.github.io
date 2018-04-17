@@ -35,10 +35,6 @@
   }
 }
 
-header {
-  position: relative;
-}
-
 #mobile-menu-button, #mobile-menu-close {
   position: absolute;
   top: 0;
@@ -53,6 +49,10 @@ header {
 }
 
 @media print, screen and (max-width: 960px) {
+  header {
+    position: relative;
+  }
+
   #header-link-container {
     position: fixed;
     top: 0;
