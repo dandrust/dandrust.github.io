@@ -3,4 +3,13 @@ layout: default
 category: thoughts
 ---
 
-{% include most_recent_post.md %}
+{% for post in site.posts %}
+  <div class='post-container'>
+    <h2>
+      <a href='{{ post.url }}'>{{ post.title }}</a>
+    </h2>
+    <small>
+      by {{ post.author | default: site.author }} on {{ post.date | date: '%B %d, %Y' }}
+    </small>
+  </div>
+{% endfor %}

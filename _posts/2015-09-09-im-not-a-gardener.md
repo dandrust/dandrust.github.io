@@ -2,10 +2,12 @@
 layout: post
 title: I'm Not a Gardener
 date: 2015-09-09
-categories: thoughts
+category: thoughts
 tags: miscellaneous
 ---
 I want to take all of the dead stuff out of my life.
+
+![The saddest tomato plant]({{'assets/img/tomato.jpg' | absolute_url }}){: #tomato-image }
 
 The other day I walked out of my front door and saw a sad looking tomato plant in my sad looking container garden. It’s like a Charlie Brown tomato plant – very few leaves and three tomatoes that are the size of a small child’s fist and seem to be hanging on for dear life. I looked at the garden and thought, better luck next year. Looks like this year is a wash…again.
 

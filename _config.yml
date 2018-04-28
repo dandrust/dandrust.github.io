@@ -26,6 +26,7 @@ header_links:
   - About
   - Code
   - Thoughts
+permalink: :categories/:title
 
 # Build settings
 markdown: kramdown

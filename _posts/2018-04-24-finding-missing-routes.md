@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Finind Missing Routes in Rails
+title: Finding Missing Routes in Rails
 date: 2018-04-24
-categories: thoughts
+category: thoughts
 tags: code
 ---
 ## Background:
@@ -149,10 +149,10 @@ end
 
 def resolve_key_and_value pair, &block
   HashMatcher
-  .new(value: :no_quotes)
-  .expression
-  .match(pair) do |match|
-    yield match
+    .new(value: :no_quotes)
+    .expression
+    .match(pair) do |match|
+      yield match
   end
 end
 
@@ -247,7 +247,7 @@ end
 This isn't a complete solution, but it worked for what we needed it to.  It lacks a couple of things, at least:
 
 - In some places we omit the controller, we could try to guess it
-- Similarly, this will likely break for namespaces controllers, like `admin/posts`
+- Similarly, this will likely break for namespaced controllers, like `admin/posts`
 - Depending on the project, there may be links hiding out in controllers.  However, we'd have to decide how to either filter out or expect `render` calls.
 
 ## The Code
