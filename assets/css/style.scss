@@ -42,7 +42,7 @@
   z-index: 10;
 }
 
-@media print, screen and (min-width: 961px) {
+@media screen and (min-width: 961px) {
   #header-link-container {
     display: block !important;
   }
@@ -97,3 +97,10 @@ pre {
   width: 275px;
   float: right
 }
+
+@media print {
+  .noprint {
+    display: none !important;
+  }
+}
+
