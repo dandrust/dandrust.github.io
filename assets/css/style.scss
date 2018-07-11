@@ -98,9 +98,21 @@ pre {
   float: right
 }
 
+.print-head-info {
+  i {
+    width: 15px;
+    margin-right: 10px;
+  }
+}
+
 @media print {
   .noprint {
     display: none !important;
   }
 }
 
+@media screen {
+  .print-only {
+    display: none !important;
+  }
+}

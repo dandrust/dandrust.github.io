@@ -30,7 +30,12 @@
 
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
 
-        <p>{{ site.description }}<br />based in {{ site.location }}</p>
+        <p class='noprint'>{{ site.description }}<br />based in {{ site.location }}</p>
+        <p class='print-only print-head-info'>
+          {{ site.description }} based in {{ site.location }}<br />
+          <i class="fas fa-mouse-pointer"></i>dandrust.github.io<br />
+          <i class='far fa-envelope'></i>dandrust@gmail.com
+        </p>
 
         {% include social.html %}
 
@@ -49,7 +54,7 @@
       {{ content }}
 
       </section>
-      <footer>
+      <footer class='noprint'>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
