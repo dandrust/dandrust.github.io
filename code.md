@@ -10,23 +10,11 @@ Solution for storing infrequently used attributes on ActiveRecord objects in MyS
 
 <br />
 ## The Elements of Computing Systems
-After reading [Code](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319) by Charles Petzold I wanted a better understanding of each layer that lies beneath the high-level code I write. I purchased [The Elements of Computing Systems](http://www.nand2tetris.org/book.php) (Nisan and Schocken) and am currently working through the text and have project deliverables in a repo on GitHub:
+After reading [Code](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319) by Charles Petzold I wanted a better understanding of each layer that lies beneath the high-level code I write. I picked up a copy of [The Elements of Computing Systems](http://www.nand2tetris.org/book.php) (Nisan and Schocken) and I'm currently working through the text.
 
-|Chapter|Topic|Link|
-|1|Gates: basic and multi-bit, plus (de)multiplexor|[link](https://github.com/dandrust/ecs/tree/master/01)
-|2|Half- and full-adder, ALU|[link](https://github.com/dandrust/ecs/tree/master/02)
-|3|Registers, RAM|[link](https://github.com/dandrust/ecs/tree/master/03)
-|4|Aseembly language|[link](https://github.com/dandrust/ecs/tree/master/04)
-|5|CPU|[link](https://github.com/dandrust/ecs/tree/master/05)
-|6|Write an assembler|[link](https://github.com/dandrust/ecs/tree/master/06)
-|7|Stack arithmetic, write VM translator pt. I|[link](https://github.com/dandrust/ecs/tree/master/07)
-|8|Control Flow, write VM translator pt. II|Pending
-{% comment %}
-|9||
-|10||
-|11||
-|12||
-{% endcomment %}
+The latest deliverable is a program that translates stack-based VM code to assembly language to run on a virtual hardware platform developed in earlier chapters of the text. My implementation, written in Ruby, is [available on GitHub](https://www.github.com/dandrust/vm_translator).
+
+Next up is writing a simple complier that parses a C-like language specification and outputs VM code that was dealt with in the previous project. Stay tuned!
 
 <br />
 ## Filter Build Scheduler for 20 Liters
