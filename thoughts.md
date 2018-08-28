@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Thoughts
 category: thoughts
 ---
 
