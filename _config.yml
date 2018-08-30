@@ -19,7 +19,7 @@ email: dandrust@gmail.com
 description: Ruby on Rails Developer
 location: Grand Rapids, MI
 baseurl: "" # the subpath of your site, e.g. /blog
-url: 'https://dandrust.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'http://www.dan-drust.com'
 github_username: dandrust
 author: Dan Drust
 header_links:
