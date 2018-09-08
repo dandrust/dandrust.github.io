@@ -28,3 +28,5 @@ Same thing with going to the laundromat. Ideal Dan would take a weekly trip to t
 Same thing with my misguided belief that a microwave is a frivolous home appliance. Same thing with my insisting that a manual lawn mower is all I need. Same thing with so many things that make my life harder because I aspire to some ideal version of myself and keep tripping over reality and falling on my face.
 
 I won’t argue that aspirations of a better self are bad, because they’re not. We would never change things about ourselves if we weren’t able to visualize ourselves as new, transformed individuals. However, I’m acknowledging that an ideal self not rooted in reality is fettering. If I’m going be a gardener, that’s great. But I cannot be a gardener without changing my summer behaviors, but my summer behaviors are making me happy. The Charlie Brown tomato isn’t making me happy. So for now, I’ll ditch the tomato plant, keep using the washer and dryer, warm up leftovers in my microwave, and mow my lawn with a self-propelled, mulching lawn mower. And I won’t be ashamed with any of it.
+
+{{site.email}}
