@@ -3,7 +3,7 @@ layout: post
 title: I'm Not a Gardener
 date: 2015-09-09
 category: thoughts
-tags: miscellaneous
+tags: miscellaneous 
 ---
 I want to take all of the dead stuff out of my life.
 
