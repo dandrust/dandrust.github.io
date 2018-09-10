@@ -1,18 +1,23 @@
 development:
   - title: Web Developer
-    organization: ProTrainings, LLC
-    date_string: Sep. 2016 - Present
+    organization: ProTrainings
+    date_string: Sept. 2016 - Present
     description:
       - Full Stack Ruby on Rails
-      - Implement and maintain features for internal clients
-      - Perform occasional maintenance and upgrades to tech stack
-      - Update legacy code for better performance and maintianability
+      - 'Solve problems createvely, including: 118n, complex queries and reports, marketing/landing pages, optimizing legacy code'
+      - Diagnose and fix miscellaneous bugs
       - Wrote and maintain <a href='https://rubygems.org/gems/has-meta'><code>has-meta</code></a> gem
+  - title: Contract Developer
+    organization: Chews Life
+    date_string: Aug. 2018 - Present
+    description:
+      - Build and maintain production Rails API app 
+      - Implement incremental features as defined by Operations team
   - title: Volunteer Rails Developer
     organization: 'Code For Good: Give Camp'
     date_string: Nov 3-5, 2017
     description:
-      - Contributor to <a href='https://github.com/chiperific/filterbuildscheduler'><code>filterbuildscheduler</code></a> for <a href='https://20liters.org/'>20 Liters</a>
+      - Contributor to <a href='https://github.com/chiperific/filterbuildscheduler'><code>filterbuildscheduler</code></a> for <a href='https://20liters.org/'>20 Liters</a> (Ruby on Rails)
 other:
   - title: Long-Term Travel
     organization: Latin America
