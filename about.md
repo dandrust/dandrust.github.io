@@ -10,7 +10,7 @@ category: about
 {% include experience.md experiences=site.data.experiences.development %}
 
 <div class='noprint' markdown='1'>
-### [See more on Linked In](https://www.linkedin.com/in/dandrust/)
+### [See more on LinkedIn](https://www.linkedin.com/in/dandrust/)
 ---
 </div>
 
@@ -20,7 +20,7 @@ category: about
   <li><b markdown='1'>[Ruby on Rails Tutorial](https://www.railstutorial.org/)</b>, Michael Hartl</li>
   <li><b markdown='1'>Testing Rails</b>, Josh Steiner and Joël Quenneville of ThoughtBot</li>
   <li><b markdown='1'>Code</b>, Charles Petzold</li>
-  <li><b markdown='1'>[Elements of Computing Systems](https://www.nand2tetris.org/)</b>, Nisan and Schocken <span markdown='1'>([See code](https://github.com/dandrust/vm_translator))</span></li>
+  <li><b markdown='1'>[Elements of Computing Systems](https://www.nand2tetris.org/)</b>, Nisan and Schocken <span class='noprint' markdown='1'>([See code](https://github.com/dandrust/vm_translator))</span></li>
   <li><b markdown='1'>Design Patterns</b>, Gang of Four</li>
   <li><b markdown='1'>Clean Code</b>, Uncle Bob</li>
 </ul>
