@@ -1,7 +1,16 @@
 development:
+  - title: Software Developer
+    organization: Elevator UP/Spark Business Works
+    date_string: Oct. 2018 - Present
+    description:
+      - Full Stack Ruby on Rails with some PHP
+      - Implemted features on top of e-commerce platform Solidus
+      - Re-wrote e-commerce module for national client
+      - Consulted on application architecture for new projects and proposals
+      - Some work with devops and process implementation
   - title: Web Developer
     organization: ProTrainings
-    date_string: Sept. 2016 - Present
+    date_string: Sept. 2016 - Oct. 2018
     description:
       - Full Stack Ruby on Rails
       - 'Solve problems createvely, including: 118n, complex queries and reports, marketing/landing pages, optimizing legacy code'
