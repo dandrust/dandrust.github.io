@@ -1,5 +1,9 @@
 {% for experience in include.experiences %}
 
+{% if experience.print %}
+I SHOULD PRINT THIS
+{% endif %}
+
 ### {{ experience.title }}
 #### {{ experience.organization }} ({{ experience.date_string }})
 <ul>
