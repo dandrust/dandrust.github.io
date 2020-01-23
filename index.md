@@ -10,7 +10,7 @@ layout: about
 ### [See more on LinkedIn](https://www.linkedin.com/in/dandrust/)
 ---
 </div>
-
+<div class='noprint'>
 ## Relevant Self Study
 <ul>
   <li><b markdown='1'>[Continuous Delivery](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/)</b>, Humble and Farley</li>
@@ -25,6 +25,7 @@ layout: about
   <li><b markdown='1'>[Ruby on Rails Tutorial](https://www.railstutorial.org/)</b>, Michael Hartl</li>  
   <li><b markdown='1'>[Free Code Camp](https://www.freecodecamp.com)</b> Front- & Back-end Certification</li>
 </ul>
+</div>
 <div class='noprint' markdown='1'>
 ### [See code samples and projects](./code)
 ---
