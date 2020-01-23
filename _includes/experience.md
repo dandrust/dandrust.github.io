@@ -1,6 +1,6 @@
 {% for experience in include.experiences %}
 
-{% if experience.print %}
+{% if experience.print == false %}
 <div class='noprint' markdown='1'>
 {% endif %}
 
@@ -12,7 +12,7 @@
 {% endfor %}
 </ul>
 
-{% if experience.print %}
+{% if experience.print == false %}
 </div>
 {% endif %}
 
