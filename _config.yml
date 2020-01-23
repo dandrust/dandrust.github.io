@@ -15,11 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: Dan Drust
 logo: https://render.bitstrips.com/v2/cpanel/74199580-3d4e-4477-8454-45c0e64aaa76-7bae3348-5189-4dda-8128-de7baa798685-v1.png?transparent=1&palette=1&width=175
-email: dan@dan-drust.com
+email: dandrust@gmail.com
 description: Ruby on Rails Developer
 location: Grand Rapids, MI
 baseurl: "" # the subpath of your site, e.g. /blog
-url: 'https://www.dan-drust.com'
+url: 'https://dan.drust.dev'
 github_username: dandrust
 author: Dan Drust
 header_links:

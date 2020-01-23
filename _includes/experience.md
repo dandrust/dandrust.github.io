@@ -1,4 +1,9 @@
 {% for experience in include.experiences %}
+
+{% if experience.print == false %}
+<div class='noprint' markdown='1'>
+{% endif %}
+
 ### {{ experience.title }}
 #### {{ experience.organization }} ({{ experience.date_string }})
 <ul>
@@ -6,4 +11,10 @@
 <li>{{ detail }}</li>
 {% endfor %}
 </ul>
+
+{% if experience.print == false %}
+</div>
+{% endif %}
+
+
 {% endfor %}

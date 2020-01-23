@@ -41,12 +41,12 @@
         {% include social.html %}
 
         <div id='header-link-container' class='hidden-mobile noprint'>
-        {% for link_text in site.header_links %}
+        <!-- {% for link_text in site.header_links %}
           {% capture link %}{{ link_text | downcase}}{% endcapture %}
           <a href='/{{ link }}' class='header_link'>
             <h3>{% if link == page.category %}> {% endif %}{{ link_text }}</h3>
           </a>
-        {% endfor %}
+        {% endfor %} -->
         </div>
 
       </header>
