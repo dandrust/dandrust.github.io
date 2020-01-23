@@ -10,7 +10,7 @@ layout: about
 ### [See more on LinkedIn](https://www.linkedin.com/in/dandrust/)
 ---
 </div>
-<div class='noprint'>
+<div class='noprint' markdown='1'>
 ## Relevant Self Study
 <ul>
   <li><b markdown='1'>[Continuous Delivery](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/)</b>, Humble and Farley</li>

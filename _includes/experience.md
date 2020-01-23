@@ -1,7 +1,7 @@
 {% for experience in include.experiences %}
 
 {% if experience.print %}
-I SHOULD PRINT THIS
+<div class='noprint' markdown='1'>
 {% endif %}
 
 ### {{ experience.title }}
@@ -11,5 +11,10 @@ I SHOULD PRINT THIS
 <li>{{ detail }}</li>
 {% endfor %}
 </ul>
+
+{% if experience.print %}
+</div>
+{% endif %}
+
 
 {% endfor %}
