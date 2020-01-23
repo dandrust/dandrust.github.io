@@ -15,7 +15,7 @@ layout: about
 <ul>
   <li><b markdown='1'>[Continuous Delivery](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/)</b>, Humble and Farley</li>
   <li><b markdown='1'>[The Unicorn Project](https://www.amazon.com/Unicorn-Project-Developers-Disruption-Thriving/dp/1942788762/)</b>, Kim, Behr, and Stafford</li>
-  <li><b markdown='1'>[The DevOps Handbook](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002/)</b>, Kim, Behr, and Stafford</li>
+  <li><b markdown='1'>[The DevOps Handbook](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002/)</b>, Kim, Humble, Debois, Willis</li>
   <li><b markdown='1'>[The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592)</b>, Kim, Behr, and Stafford</li>
   <li><b markdown='1'>Clean Code</b>, Uncle Bob</li>
   <li><b markdown='1'>Design Patterns</b>, Gang of Four</li>
