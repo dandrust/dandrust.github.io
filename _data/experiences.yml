@@ -52,7 +52,7 @@ other:
       - Redesigned recruitment and training processes to meet recruitment and retention goals, wrote and delivered 10+ teacher trainings, developed collaborative recruitment strategy
 professional:
   - title "Foundations of DevOps"
-    organization: DevOps Institute/Learning Tree International
+    organization: "DevOps Institute/Learning Tree International"
     date_string: Dec 2019
 education:
   - title: 'Bachelor of Art: Spanish Language and Literature'
