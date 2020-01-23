@@ -1,8 +1,5 @@
 ---
 layout: about
-title: About
-permalink: about
-category: about
 ---
 ## Development Experience
 
