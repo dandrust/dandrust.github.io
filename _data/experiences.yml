@@ -4,12 +4,14 @@ development:
     organization: SPARK Business Works (Elevator UP)
     date_string: Oct. 2018 - Present
     description:
-      - Consult with Project Managers and Leadership to prioritize technical work across project portfolio
+      - Consult with Project Managers and Leadership regarding technical work across project portfolio
+      - Wrote an internal command-line application to automate Standard Operating Procedures (PHP)
+      - Implement containerized, interactive customer journeys for retail fixtures (Vue.js)
       - Re-wrote the payment system for a national peer-to-peer subletting app (Ruby on Rails)
       - Wrote customer-facing features to save time for back-office stakeholders for a local e-commerce bookseller (Ruby on Rails, Solidus)
       - Performed maintenance and optimizations on a number of data-sync systems (Ruby on Rails)
-      - Implemented automated deployment systems on 25+ PHP projects (performed research, got buy in from stakeholders, trained implementors, and oversaw implementation)
-      - Wrote an internal command-line application to automate Standard Operating Procedures (PHP)
+      - Implemented automated deployment systems on 25+ PHP projects
+      - Prepared and Delivered presentations on DevOps practices to internal stakeholders and clients
   - title: Volunteer PHP/Laravel Developer
     print: false
     organization: 'Weekend for Good'
