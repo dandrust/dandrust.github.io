@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating a Custom Color Selector
-date: 2020-06-15
+date: 2020-04-16
 category: posts
 ---
 _This article was orignally posted on the [Spark Business Works Insights Blog](https://www.sparkbusinessworks.com/blog/creating-a-custom-color-selector)_
