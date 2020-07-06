@@ -5,6 +5,13 @@
 
 {{recent_post.content}}
 
-{% if page.tags %}
-Tags: {{ page.tags | join: ", " }}
+---
+
+Written by {{ site.author }} on {{ recent_post.date | date: "%-d %B %Y" }}
+
+{% if recent_post.previous.url %}
+Continue Reading: [{{ recent_post.previous.title | truncate: 35 }}]({{recent_post.previous.url}})
+
 {% endif %}
+
+[Browse more posts](/posts)

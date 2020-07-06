@@ -10,10 +10,6 @@ layout: default
 Code available on [GitHub]({{page.repo}})
 {% endif %}
 
-{% if page.tags %}
-Tags: {{ page.tags | join: ", " }}
-{% endif %}
-
 ---
 
 {% if site.categories[page.name] %}

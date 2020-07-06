@@ -7,6 +7,15 @@ layout: default
 
 {{content}}
 
-{% if page.tags %}
-Tags: {{ page.tags | join: ", " }}
+---
+
+Written by {{ site.author }} on {{ page.date | date: "%-d %B %Y" }}
+
+{% if page.previous.url %}
+Continue Reading: [{{ page.previous.title | truncate: 35 }}]({{page.previous.url}})
+
 {% endif %}
+
+[Browse more posts](/posts)
+
+
