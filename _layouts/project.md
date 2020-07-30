@@ -14,7 +14,8 @@ Code available on [GitHub]({{page.repo}})
 
 {% if site.categories[page.name] %}
 ## Posts related to this project
-{% for post in site.categories.text-editor %}
-[{{ post.title }}]({{post.url}})
+{% for post in site.categories[page.name] %}
+[{{ post.title }}]({{post.url}}) - 
+{{ post.date | date: "%-d %B %Y" }}
 {% endfor %}
 {% endif %}
