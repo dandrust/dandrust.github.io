@@ -2,7 +2,7 @@
 layout: post
 title: Building an adder with overflow detection
 date: 2020-07-22
-category: posts
+category: bradfield-architecture-course
 ---
 
 It's been a while since I worked through the first part of The [Elements of Computing Systems](https://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686) and, in preparation for the Computer Architecture course at [Bradfield CS](https://bradfieldcs.com/) I was watching this [UC Berkely lecture](https://archive.org/details/ucberkeley_webcast_gJJeUFyuvvg) that touches on Two's Complement addition.  The point came up that you can detect an overflow or underflow by comparing the carry-in and carry-out values for the most significant bit.  That seemed like it would be easy to implement in an 8-bit adder built from an array of 1-bit adders.  So I decided to diagram an 8-bit adder with overlfow/underflow detection.  In the spirit of strengthening some neural pathways I refused to look at my notes from my previous reading of ECS.
@@ -55,7 +55,7 @@ I noticed a pattern early on. I could generalize the rule for `Out` and `Out(car
 |If there are three 1s|1|1|
 
 ### The Out Bit
-I started with the `Out` bit. The generalization above made me thing that there may not be any distinction between any of the input bits. I would need to perform some operations that would allow for variance in the order of the bits so that `{0 0 1}`, `{0 1 0}`, and `{1 0 0}` would evaluate to the same value. Given that `AND` gates prefer all 1s and `OR` gates prefer 1s in general, I had a haunch that `XOR` might help out with the order issue:
+I started with the `Out` bit. The generalization above made me think that there may not be any distinction between any of the input bits. I would need to perform some operations that would allow for variance in the order of the bits so that `{0 0 1}`, `{0 1 0}`, and `{1 0 0}` would evaluate to the same value. Given that `AND` gates prefer all 1s and `OR` gates prefer 1s in general, I had a haunch that `XOR` might help out with the order issue:
 
 ```
 # Zero 1s ===========
