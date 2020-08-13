@@ -172,7 +172,7 @@ Let's define two more intermediates:
 |**_1_**   |  **_1_**|         0|         0|            0|          0|      **_1_**|...|       **_1_**|
 |**_1_**   |  **_1_**|         1|         0|            1|          0|      **_1_**|...|       **_1_**|
 
-Now, all we have to do is transform `Inter(b) AND Inter(c)` to arrive at `Out(carry)`!
+Now, all we have to do is transform `Inter(b) OR Inter(c)` to arrive at `Out(carry)`!
 
 So the full adder is as follows:
 ```
@@ -188,7 +188,7 @@ INTERMEDIATES
 
 OUTPUT
     Out        = Inter(a) XOR In(carry)
-    Out(carry) = Inter(b) AND Inter(c)
+    Out(carry) = Inter(b) OR Inter(c)
 ```
 
 ## 8 Bits and Overflow detection
@@ -229,6 +229,7 @@ OUTPUT
     Out(overflowFlag) = Inter(carrySeven)
 ```
 This adder will take two 8-bit numbers as input and will output an 8-bit number, as well as an over/underflow detection bit and a flag to indicate if (0) an underflow was detected or (1) an overflow was detected.
+
 
 
 
