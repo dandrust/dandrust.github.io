@@ -5,7 +5,7 @@ date: 2020-08-12
 category: bradfield-architecture-course
 ---
 
-I previously wrote about [building a binary adder with overflow detection]() in preparation for the Computer Architecture course at [Bradfield CS](https://bradfieldcs.com/). I didn't realize we'd do this as an in-class exercise. Doing this exercise with a live instructor brought a couple of concepts to the forefront:
+I previously wrote about [building a binary adder with overflow detection]({% post_url 2020-07-22-building-an-adder-with-overflow-detection %}) in preparation for the Computer Architecture course at [Bradfield CS](https://bradfieldcs.com/). I didn't realize we'd do this as an in-class exercise. Doing this exercise with a live instructor brought a couple of concepts to the forefront:
 
 ## I wasn't wrong before, but...
 My previous post documents my approach to building a full-adder circuit through a mixture of trail-and-error and analyzing truth tables. Surely, there are many roads that lead to Rome.  My solution certainly worked and the write up of a ripple-carry full adder on [Wikipedia](https://en.wikipedia.org/wiki/Adder_(electronics)#Full_adder) verified my solution. However, a suggestion during the in-class exercise to **_try using a half-adder while solving the full-adder exerecise_** made a lot more sense than my approach. Note the brevity and elegance of using an established abstraction instead of re-inventing the wheel:
