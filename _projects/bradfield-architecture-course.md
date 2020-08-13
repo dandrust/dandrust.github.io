@@ -16,3 +16,5 @@ I'm taking the Computer Architecture course at [Bradfield CS](https://bradfieldc
 
 ### Course Deliverables
 * Simple virtual machine imlpementation in Ruby ([GitHub](https://github.com/dandrust/virtual_machine))
+* Recursive Fibonacci calculator in MIPS assembly ([GitHub](https://github.com/dandrust/fibonacci-mips))
+* Binary converter in MIPS assembly ([GitHub](https://github.com/dandrust/binary-converter-mips))
